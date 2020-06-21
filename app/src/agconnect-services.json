@@ -1,0 +1,12 @@
+{
+	"client":{
+		"cp_id":"80091000000320727",
+		"product_id":"736430079244524933",
+		"client_id":"390116254876173376",
+		"client_secret":"12A43ECBB13C069F28C2A80650B4B989DE5DF20B5E925D33D898D23F9A141C6A",
+		"app_id":"102439689",
+		"package_name":"com.example.memorymaker",
+		"api_key":"CV8XaEqD4ZVMIE6IXxEXK/Awd/EfyHCheGCe4dUKjuI3prSS3AYZi7sIHuhne7E7VueMNYSfpXKg3o1mCEikfirhBOb4"
+	},
+	"configuration_version":"1.0"
+}

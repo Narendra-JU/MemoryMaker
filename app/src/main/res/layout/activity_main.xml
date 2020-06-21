@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+
+
+
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_450sdp"
+            android:paddingBottom="@dimen/_60sdp"
+
+
+            android:elevation="@dimen/_2sdp"
+            app:cardElevation="@dimen/_10sdp">
+
+            <RelativeLayout
+                android:id="@+id/innerrelativelayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_450sdp"
+                android:background="@drawable/whitebackground">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab1"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:clickable="true"
+                    android:elevation="@dimen/_6sdp"
+                    android:focusable="true"
+                    android:src="@drawable/flower"
+                    app:backgroundTint="@color/white"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+
+                    app:fabCustomSize="@dimen/_60sdp"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mycopyright"
+                    android:textSize="@dimen/_5ssp"
+                    android:textColor="@color/dark_blue"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/dialogAvatar"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:layout_marginLeft="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:src="@drawable/img_default_user"
+                    />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/status_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_alignTop="@+id/dialogAvatar"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/pacifico"
+
+
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_toEndOf="@+id/dialogAvatar"
+                    android:cursorVisible="false"
+
+
+                    android:textColor="@color/maroon_flush"
+                    android:hint="Dear..."
+
+
+                    android:textSize="@dimen/_25ssp">
+
+                    <requestFocus />
+                </androidx.appcompat.widget.AppCompatEditText>
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/image"
+
+
+                    android:layout_width="@dimen/_160sdp"
+                    android:layout_height="@dimen/_160sdp"
+
+                    android:layout_below="@id/status_edit"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/memories_two" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/writesomething"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_30sdp"
+                    android:paddingEnd="@dimen/_30sdp"
+                    android:background="@android:color/transparent"
+
+
+                    android:layout_below="@id/image"
+                    android:cursorVisible="false"
+                    android:fontFamily="@font/pacifico"
+                    android:textColor="@color/dark_blue"
+
+                    android:hint="Write something ..."
+
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+
+
+                    android:textSize="@dimen/_20sdp">
+
+                </androidx.appcompat.widget.AppCompatEditText>
+
+
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1579472841958106/4315673123">
+
+        </com.google.android.gms.ads.AdView>
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</layout>

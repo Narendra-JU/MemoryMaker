@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#333</color>
+    <color name="white">#ffffff</color>
+    <color name="hint_color">#70625b</color>
+    <color name="mischka">#DCDEE3</color>
+    <color name="black">#000000</color>
+    <color name="maroon_flush">#C91649</color>
+    <color name="dark_blue">#2A0FD6</color>
+
+
+</resources>
